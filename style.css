@@ -1,0 +1,239 @@
+body{
+  padding: 0;
+  margin: 0;
+  font-family: 'Noto Sans JP', sans-serif;
+  background: #fefefe;
+}
+#main{
+  margin-top: 60px;
+  margin-bottom: 60px;
+  height: 80%;
+}
+.site-width{
+  width: 790px;
+  margin: 0 auto;
+}
+#top-logo{
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+}
+#top-logo img{
+  width: 100px;
+  height: 90px;
+  cursor: pointer;
+}
+.green_line{
+  background: #6ac15e;
+  width: 100%;
+  height: 8px;
+  margin-bottom: 10px;
+}
+#top-wrapper{
+  overflow: hidden;
+  height: 330px;
+}
+#top-baner{
+  width: 70%;
+  height: 100%;
+  float: left;
+  background: #6ac15e;
+}
+#top-baner img{
+  width: 100%;
+  height: 100%;
+}
+#top-2button{
+  width: 30%;
+  height: 100%;
+  float: left;
+  background: #ce60bf;
+}
+button{
+  border: none;
+  color: white;
+  background: #6ac15e;
+  width: 100px;
+  height: 40px;
+  margin: 55px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#footer{
+  color: white;
+  background: #89ca80;
+  text-align: center;
+  height: 30px;
+  font-size: 16px;
+}
+.form-section{
+  margin: 0 auto;
+  width: 55%;
+  height: 70%;
+  text-align: center;
+  border: 4px solid #8cc873;
+  background: #fefefe;
+}
+.form-section-msg-edit{
+  margin: 0 auto;
+  width: 55%;
+  height: 70%;
+  text-align: center;
+  border: 4px solid #bb70ac;
+  background: #fefefe;
+}
+.form-group{
+  padding: 13px;
+  font-size: 18px;
+}
+input[type="text"],input[type="password"]{
+  width: 67%;
+  height: 30px;
+  border: 1px solid #8cc873;
+  font-size: 16px;
+}
+input[type="submit"]{
+  border: 1px solid #8cc873;
+  width: 76px;
+  height: 33px;
+  cursor: pointer;
+  font-size: 16px;
+  background: #6ac15e;
+  color: white;
+}
+input[type="checkbox"]{
+  width: 10px;
+  height: 5px;
+  border: 1px solid #8cc873;
+
+}
+.bt{
+  border:none;
+  color: white;
+  background: #6ac15e;
+  width: 100px;
+  height: 40px;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 0;
+  margin: 10px 30px ;
+}
+#forum-sidebar a{
+  text-decoration: none;
+  color: white;
+  vertical-align: middle;
+  font-size: 16px;
+}
+.sidebar-logout{
+  width: 100px;
+  height: 40px;
+  background: #6ac15e;
+  margin: 10px 30px ;
+  text-align: center;
+}
+.area-msg{
+  color: red;
+}
+#forum-wrapper{
+  height: 100%;
+  overflow: hidden;
+  border: 4px solid #8cc873;
+  border: 4px solid #bb70ac;
+}
+#forum-main{
+  float: left;
+  width: 80%;
+  height: 100%;
+  background: #fefefe;
+}
+#forum-sidebar{
+  float: left;
+  width: 20%;
+  height: 100%;
+  background: #bb70ac;
+}
+.message-underline{
+  width: 100%;
+  height: 3px;
+  background: #ddd;
+}
+.pagenation-container{
+  overflow: hidden;
+}
+.pagenation-toplink{
+  float: left;
+}
+.pagenation{
+  float: left;
+  list-style: none;
+  width: 40px;
+  height: 40px;
+  margin: 5px 5px;
+  background: #8cc873;
+  text-align: center;
+}
+li.pagenation a{
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+select{
+  border: 3px solid #8cc873;
+  font-size: 14px;
+  padding: 6px;
+  margin-left: 10px;
+  border-radius: 0;
+  font-size: 14px;
+  color: white;
+  background: #8cc873;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+.search{
+  margin: 10px 37px;
+}
+.forum-sidebar-form{
+  margin-top: 42px;
+}
+.search-msg .sm{
+  margin: 10px 21px;
+}
+i{
+  cursor: pointer;
+}
+i.active{
+  color: #fe8a8b;
+}
+.favo-sidebar{
+  overflow: hidden;
+}
+.favo-sidebar h1{
+  color: white;
+  font-size: 14px;
+  width: 100px;
+  margin: 3px;
+  float: left;
+}
+span .favo-side-icon{
+  float: left;
+  color: #fe8a8b;
+}
+.test{
+  float: none;
+}
+.msg-slide{
+  background: rgba(20, 200, 100, 0.5);
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  position: fixed;
+  top: 0;
+}
+.dm-my-msg{
+  float: right
+}
+.dm-other-msg{
+  float: left;
+}
